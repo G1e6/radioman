@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="710b5253-8be1-4299-ace0-666f87b0c9ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ru/netology/javaradio/service/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ru/netology/javaradio/service/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ru/netology/javaradio/service/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ru/netology/javaradio/service/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ru/netology/javaradio/service/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ru/netology/javaradio/service/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.maxMaxSoundVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.nextSoundVolume1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radioman" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +72,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.ru.netology.javaradio.service" />
       <option name="MAIN_CLASS_NAME" value="ru.ru.netology.javaradio.service.RadioTest" />
-      <option name="METHOD_NAME" value="maxMaxSoundVolume" />
+      <option name="METHOD_NAME" value="nextSoundVolume1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.minMinRadioStationNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.nextSoundVolume2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radioman" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +88,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.ru.netology.javaradio.service" />
       <option name="MAIN_CLASS_NAME" value="ru.ru.netology.javaradio.service.RadioTest" />
-      <option name="METHOD_NAME" value="minMinRadioStationNumber" />
+      <option name="METHOD_NAME" value="nextSoundVolume2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.minMinSoundVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduceSoundVolume1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radioman" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.ru.netology.javaradio.service" />
       <option name="MAIN_CLASS_NAME" value="ru.ru.netology.javaradio.service.RadioTest" />
-      <option name="METHOD_NAME" value="minMinSoundVolume" />
+      <option name="METHOD_NAME" value="reduceSoundVolume1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.reduceRadioStationNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.reduceSoundVolume2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radioman" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.ru.netology.javaradio.service" />
       <option name="MAIN_CLASS_NAME" value="ru.ru.netology.javaradio.service.RadioTest" />
-      <option name="METHOD_NAME" value="reduceRadioStationNumber" />
+      <option name="METHOD_NAME" value="reduceSoundVolume2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.minMinSoundVolume" />
-        <item itemvalue="JUnit.RadioTest.maxMaxSoundVolume" />
-        <item itemvalue="JUnit.RadioTest.minMinRadioStationNumber" />
-        <item itemvalue="JUnit.RadioTest.reduceRadioStationNumber" />
+        <item itemvalue="JUnit.RadioTest.nextSoundVolume2" />
+        <item itemvalue="JUnit.RadioTest.reduceSoundVolume2" />
+        <item itemvalue="JUnit.RadioTest.nextSoundVolume1" />
+        <item itemvalue="JUnit.RadioTest.reduceSoundVolume1" />
       </list>
     </recent_temporary>
   </component>
