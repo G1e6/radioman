@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 public class RadioTest {
 
 
-
     @Test
     public void shouldSetNumberRadioStation() {
         Radio numberStation = new Radio();
@@ -34,7 +33,7 @@ public class RadioTest {
     }
 
     @Test
-    public void nextRadioStationNumber(){
+    public void nextRadioStationNumber() {
         Radio numberStation = new Radio();
         numberStation.setCurrentStation(3);
 
@@ -47,7 +46,7 @@ public class RadioTest {
     }
 
     @Test
-    public void reduceRadioStationNumber(){
+    public void reduceRadioStationNumber() {
         Radio numberStation = new Radio();
         numberStation.setCurrentStation(5);
 
@@ -60,9 +59,8 @@ public class RadioTest {
     }
 
 
-
     @Test
-    public void maxRadioStationNumber(){
+    public void maxRadioStationNumber() {
         Radio numberStation = new Radio();
         numberStation.setCurrentStation(9);
 
@@ -75,7 +73,7 @@ public class RadioTest {
     }
 
     @Test
-    public void minRadioStationNumber(){
+    public void minRadioStationNumber() {
         Radio numberStation = new Radio();
         numberStation.setCurrentStation(0);
 
@@ -88,7 +86,7 @@ public class RadioTest {
     }
 
     @Test
-    public void minMinRadioStationNumber(){
+    public void lessMinRadioStationNumber() {
         Radio numberStation = new Radio();
         numberStation.setCurrentStation(-1);
         int expected = 0;
@@ -139,6 +137,20 @@ public class RadioTest {
     }
 
     @Test
+    public void nextSoundVolume1() {
+        Radio soundLevel = new Radio();
+
+        soundLevel.setCurrentVolume(11);
+        soundLevel.increaseVolume();
+
+        int expected = 10;
+        int actual = soundLevel.getCurrentVolume();
+
+        Assertions.assertEquals(expected, actual);
+
+    }
+
+    @Test
     public void reduceSoundVolume() {
         Radio soundLevel = new Radio();
 
@@ -151,6 +163,21 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
+    @Test
+    public void reduceSoundVolume1() {
+        Radio soundLevel = new Radio();
+
+        soundLevel.setCurrentVolume(-1);
+        soundLevel.reduceVolume();
+
+        int expected = 0;
+        int actual = soundLevel.getCurrentVolume();
+
+        Assertions.assertEquals(expected, actual);
+
+    }
+
 
     @Test
     public void maxSoundVolume() {
@@ -166,12 +193,12 @@ public class RadioTest {
     }
 
     @Test
-    public void maxMaxSoundVolume() {
+    public void greaterMaxSoundVolume() {
         Radio soundLevel = new Radio();
 
         soundLevel.setCurrentVolume(11);
 
-        int expected = 0;
+        int expected = 10;
         int actual = soundLevel.getCurrentVolume();
 
         Assertions.assertEquals(expected, actual);
@@ -192,7 +219,7 @@ public class RadioTest {
     }
 
     @Test
-    public void minMinSoundVolume() {
+    public void lessMinSoundVolume() {
         Radio soundLevel = new Radio();
 
         soundLevel.setCurrentVolume(-1);
@@ -204,12 +231,6 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
-
-
-
-
-
-
 
 
 }
